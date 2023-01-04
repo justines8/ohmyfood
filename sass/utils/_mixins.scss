@@ -1,6 +1,6 @@
-@mixin btn-hover {
-    box-shadow: $shadow-hover;
-    filter: brightness(110%);
+@mixin bouton-hover {
+    filter: drop-shadow(8px 8px 4px grey);
+    opacity: 85%;
 }
 @mixin typographie {
     font-family: $font-primary;

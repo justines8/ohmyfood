@@ -9,6 +9,9 @@
     padding: 20px 15px;
     margin-bottom: 60px;
     filter: drop-shadow(8px 8px 4px #eaeaea);
+    &:hover {
+        @include bouton-hover;
+    }
 }
 .carte__bouton {
     font-family: $font-primary;
@@ -34,4 +37,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     margin-top: 30px;
     font-family: $font-primary;
+    &:hover {
+        @include bouton-hover;
+    }
 }

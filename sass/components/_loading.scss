@@ -1,0 +1,16 @@
+.container {
+    @include flexcentre;
+    height: 100%;
+    background: $text-secondary;
+    position:fixed;
+    z-index: 2;
+    animation: load 500ms 2s forwards;
+    .load {
+        height: 50px;
+        width: 50px;
+        margin: 15px;
+        background-image: $degrade;
+        border-radius: 50%;
+        animation: rotation 1500ms linear 0ms 4;
+    }
+}
