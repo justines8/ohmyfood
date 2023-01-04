@@ -1,0 +1,100 @@
+/* FONCTIONNEMENT DÉBUT */
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-primary;
+    &__titre {
+    font-family: $font-primary;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 20px;
+    padding-top: 20px;
+    }
+    &__etape {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    max-width: 280px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: $text-secondary;
+    filter: drop-shadow(5px 5px 2px #ECECEC);
+    margin-top: 10px;
+    font-family: $font-primary;
+    font-weight: 600;
+    font-size: 1em;
+    &:hover {
+        background-color: #F5EDFF;
+        .fonctionnement__icone {
+            color: $colour-primary;
+            }
+        }
+    }
+    &__etape__numero {
+    @include flexcentre;
+    font-family: $font-primary;
+    font-size: 0.8em;
+    background-color: $colour-primary;
+    color: $background-primary;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 96%;
+    }
+    &__etape__icone {
+    color: #7e7e7e;
+    padding: 0px 30px;
+    }
+}
+/* FONCTIONNEMENT FIN */
+/* RESTAURANT DÉBUT */
+.cartes {
+    @include flexcolumn;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: $text-secondary;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+.carte {
+    @include flexcolumn;
+    width: 90%;
+    max-width: 500px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    filter: drop-shadow(1px 1px 2px grey);   
+    &__titre {
+        font-family: $font-primary;
+        font-weight: 600;
+        font-size: 1.2em;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    &__image {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;    
+    }
+    &__lien {
+    text-decoration: none;
+    color: black;
+    }
+    &__texte {
+    font-family: $font-primary;
+    padding-left: 20px;
+    line-height: 8px;
+    }
+    &__nom {
+    font-size: 1.1em;
+    }
+}
+/* RESTAURANT FIN */

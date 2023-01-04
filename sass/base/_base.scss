@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+#bloc_page {
+    background-color: $text-secondary;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    @media (max-width: 992px) {
+        max-width: 992px;
+    }
+    @media (max-width: 1400px) {
+        max-width: 1400px;
+    }
+}

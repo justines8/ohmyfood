@@ -1,0 +1,56 @@
+.header {
+    &__logo {
+        @include flexcentre;
+        padding: 15px 0px;
+        background-color: $background-primary;
+        filter: drop-shadow(1px 1px 3px $colour-footer);
+    }
+    &__logo img {
+        height: 35px;
+    }
+    &__localisation {
+        @include flexcentre;
+        background-color: #eaeaea;
+        @include typographie;
+        color: $colour-footer;
+        height: 50px;
+        gap: 20px;
+    }
+    &__titre {
+        @include flexcentre;
+        text-align: center;
+        flex-direction: column;
+        background-color: $text-secondary;
+        font-family: $font-primary;
+        &--grand {
+            font-weight: 700;
+            font-size: 1.5em;
+            width: 60%;
+            margin-top: 40px;
+            margin-bottom: 0px;
+        }
+        &--moyen {
+            font-weight: 100;
+            font-size: 1.2em;
+            color: $colour-footer;
+            margin-bottom: 30px;
+        }
+    }
+    &__icone {
+        color: $colour-footer;
+        display: flex;
+        align-items: center;
+    }
+    &__logo i {
+        color: black;
+        position: absolute;
+        left: 5%;
+    }
+    &__image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: -40px;
+    }
+}
+

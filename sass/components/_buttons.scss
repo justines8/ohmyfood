@@ -1,0 +1,37 @@
+.header__bouton {
+    @include typographie;
+    color: $background-primary;
+    background: $degrade;
+    border-radius: 30px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+    padding: 20px 15px;
+    margin-bottom: 60px;
+    filter: drop-shadow(8px 8px 4px #eaeaea);
+}
+.carte__bouton {
+    font-family: $font-primary;
+    font-weight: 600;
+    color: #008766;
+    background-color: $colour-tertiary;
+    text-align: center;
+    width: 20%;
+    border-radius: 3px;
+    padding: 5px 0px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.menu__bouton {
+    width: 40%;
+    max-width: 350px;
+    background: linear-gradient(-5deg, #9356DC, #FF79DA);
+    color: $background-primary;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin-top: 30px;
+    font-family: $font-primary;
+}

@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $colour-footer;
+    width: 100%;
+    padding-left: 20px;
+    &__titre { 
+    color: $background-primary;
+    font-family: $font-secondary;
+    font-size: 1.4em;
+    font-weight: 200;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    }
+    &__liste {
+    line-height: 1em;  
+    padding-bottom: 30px;
+    }
+    &__liste__nav {
+    font-family: $font-primary;
+    font-size: 1.1em;
+    color: $background-primary;
+    }
+    a {
+    text-decoration: none;
+    }
+    i {
+    padding-right: 10px;
+    }
+}
+
+
+

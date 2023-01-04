@@ -1,0 +1,37 @@
+.menu {
+    @include flexcolumn;
+    background-color: $text-secondary;
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+    margin-bottom: 30px;
+    &__page {
+    @include flexcentre;
+    flex-direction: column;
+    padding-left: 20px;
+    }
+    &__restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font-secondary;
+    padding: 10px 30px 0 15px;
+    font-size: 1.2em;
+    }
+    &__titre {
+    font-family: $font-primary;
+    font-size: 1.1em;
+    padding-left: 15px;
+    color: $colour-footer;
+    }
+    &__barre {
+    background-color: $colour-tertiary;
+    height: 3px;
+    width: 10%;
+    max-width:40px;
+    margin-left: 15px;
+    margin-top: -10px;
+    }
+    &__input {
+    @include flexcentre;
+    }
+}
