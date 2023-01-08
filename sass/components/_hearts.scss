@@ -29,28 +29,7 @@
 .menu {
     &__restaurant__coeur {
         font-size: 30px;
-        position: absolute;
-        left: 88%;
-        top: 365px;
-        opacity: 1;
-        transition: opacity 600ms;
-        &:hover {
-            opacity: 0;
-        }
-    }  
-        &__restaurant__coeur__plein {
-        font-size: 30px;
-        position: absolute;
-        left: 88%;
-        top: 365px;
-        background: $degrade-coeur;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        opacity: 0;
-        transition: opacity 600ms;
-        &:hover {
-            opacity: 1;
-        }
-    }
-}
+        padding-top: 10px;
+       }
+}  
+

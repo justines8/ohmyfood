@@ -3,14 +3,14 @@ body {
 }
 #bloc_page {
     background-color: $text-secondary;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
     @media (max-width: 992px) {
         max-width: 992px;
     }
     @media (max-width: 1400px) {
         max-width: 1400px;
+        width: 100%;
     }
 }
