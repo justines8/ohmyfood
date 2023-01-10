@@ -28,7 +28,7 @@
     font-size: 1em;
     &:hover {
         background-color: #F5EDFF;
-        .fonctionnement__icone {
+        .fonctionnement__etape__icone {
             color: $colour-primary;
             }
         }
@@ -97,5 +97,11 @@
     &__nom {
     font-size: 1.1em;
     }
+}
+@media screen and (min-width: 993px) {
+    .cartes {
+            display: flex;
+            flex-direction: row;
+}    
 }
 /* RESTAURANT FIN */

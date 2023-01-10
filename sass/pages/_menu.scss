@@ -1,7 +1,6 @@
 .menu {
     @include flexcolumn;
     background-color: $text-secondary;
-    border-radius: 40px 40px 0px 0px;
     width: 100%;
     margin-bottom: 30px;
     &__page {
@@ -10,13 +9,21 @@
     width: 90%;
     padding-left: 20px;
     }
+    &__image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: -35px;
+    }
     &__restaurant {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: $font-secondary;
-    padding: 40px 30px 0 15px;
+    padding: 0px 30px 0 15px;
     font-size: 1.4em;
+    background-color: $text-secondary;
+    border-radius: 40px 40px 0px 0px;
     }
     &__titre {
     font-family: $font-primary;

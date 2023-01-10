@@ -4,7 +4,7 @@
     height: 100%;
     background: $text-secondary;
     position:fixed;
-    z-index: 2;
+    z-index: 1;
     animation: load 500ms 2s forwards;
     .load {
         height: 50px;
@@ -12,6 +12,6 @@
         margin: 15px;
         background-image: $degrade;
         border-radius: 50%;
-        animation: rotation 1500ms linear 0ms 4;
+        animation: rotation 1500ms linear 0ms 4 forwards;
     }
 }
