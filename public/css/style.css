@@ -435,7 +435,13 @@ body {
 @media screen and (min-width: 993px) {
   .cartes {
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .carte {
+    width: 600px;
   }
 }
 /* RESTAURANT FIN */
