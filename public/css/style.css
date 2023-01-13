@@ -146,10 +146,12 @@ body {
   padding: 20px 15px;
   margin-bottom: 60px;
   filter: drop-shadow(8px 8px 4px #eaeaea);
+  cursor: pointer;
 }
 .header__bouton:hover {
   filter: drop-shadow(8px 8px 4px grey);
   opacity: 85%;
+  cursor: pointer;
 }
 
 .carte__bouton {
@@ -181,6 +183,7 @@ body {
 .menu__bouton:hover {
   filter: drop-shadow(8px 8px 4px grey);
   opacity: 85%;
+  cursor: pointer;
 }
 
 .carte__coeur {
